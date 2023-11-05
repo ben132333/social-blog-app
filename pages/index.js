@@ -2,8 +2,6 @@ import Loader from '../components/Loader';
 import PostFeed from '../components/PostFeed';
 import { firestore, fromMillis, postToJSON } from '../lib/firebase';
 import { useState } from 'react';
-import dotenv from 'dotenv';
-dotenv.config();
 
 const LIMIT = 10;
 
